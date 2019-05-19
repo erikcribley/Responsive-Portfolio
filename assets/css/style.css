@@ -203,11 +203,12 @@ footer {
        clear: both;
    }
 
-   .frame,
    .bio-pic {
         display: block;
         float: none;
         margin-left: auto;
         margin-right: auto;
    }
+
+   
 }
