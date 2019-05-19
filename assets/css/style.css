@@ -137,26 +137,7 @@ footer {
     position: relative;
 }
 
-@media screen and (max-width:640px){
-    
-}
-
-@media screen and (min-width:641px) and (max-width:768px){
-    main {
-        margin: 20px auto 20px 10px;
-        width: 400px;
-    }
-
-    input[type="text"] {
-    width: 712px;
-    }
-
-    textarea {
-    width: 710px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width:980px){
+@media screen and (max-width:980px) {
     main {
         margin: 20px auto 20px 10px;
         width: 660px;
@@ -169,4 +150,64 @@ footer {
     textarea {
     width: 610px;
     }
+
+    .container {
+        width: auto;
+        margin: 0px 15px 0px 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        margin: 20px 15px 20px 10px;
+        width: auto;
+    }
+
+    input[type="text"] {
+    width: 687px;
+    }
+
+    textarea {
+    width: 685px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px -15px 0px -10px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    h1 {
+        position: absolute;
+        left: 0;
+        padding: 22px;
+        margin: 0;
+    }
+    
+    nav {
+        position: absolute;
+        right: -15px;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:640px) {
+   p {
+       clear: both;
+   }
+
+   .frame,
+   .bio-pic {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+   }
 }
