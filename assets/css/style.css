@@ -249,5 +249,7 @@ footer {
     .frame {
         float: none;
         clear: both;
+        margin: auto;
+        width: 300px;
     }
 }
