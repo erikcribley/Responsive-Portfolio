@@ -165,12 +165,12 @@ footer {
 
     input[type="text"] {
         width: 100%;
-        margin: 11px;
+        margin-right: 22px;
     }
 
     textarea {
         width: 100%;
-        margin: 11px;
+        margin-right: 22px;
     }
 
     .container {
