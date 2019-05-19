@@ -164,11 +164,13 @@ footer {
     }
 
     input[type="text"] {
-    width: auto;
+        width: 100%;
+        margin: 11px;
     }
 
     textarea {
-    width: auto;
+        width: 100%;
+        margin: 11px;
     }
 
     .container {
