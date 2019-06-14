@@ -48,7 +48,7 @@ nav {
     margin-top: 35px;
 }
 
-a {
+.nav-link {
     text-decoration: none;
     padding: 15px;
 }
@@ -242,7 +242,7 @@ footer {
         margin-right: auto;
     }
 
-   p {
+    p {
     clear: both;
     }
 
