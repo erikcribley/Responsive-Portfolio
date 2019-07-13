@@ -74,10 +74,13 @@ h2 {
     margin: 22px;
 }
 
-.bio-pic {
-    width: 250px;
+.pic-and-links {
     float: left;
     padding: 0px 22px 22px 22px;
+}
+
+.bio-pic {
+    width: 250px;
 }
 
 p {
@@ -88,23 +91,8 @@ p {
     padding: 0px 22px 22px 22px;
 }
 
-input[type="text"] {
-    width: 912px;
-    padding: 6px 0;
-    margin: 5px 0;
-}
-
-textarea {
-    width: 910px;
-    height: 150px;
-    margin: 5px 0;
-}
-
-input[type="submit"] {
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px 30px;
-    border: 4px;    
+li {
+    padding: 5px 0;
 }
 
 .frame {
@@ -121,6 +109,12 @@ h3 {
     text-align: center;
     bottom: 15px;
     padding: 10px 0;
+}
+
+.repo-link {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .push {
@@ -193,16 +187,6 @@ footer {
         width: auto;
     }
 
-    input[type="text"] {
-        width: 100%;
-        margin-right: 22px;
-    }
-
-    textarea {
-        width: 100%;
-        margin-right: 22px;
-    }
-
     footer {
         width: 100%;
     }
@@ -235,7 +219,7 @@ footer {
         position: static;
     }
 
-    .bio-pic {
+    .pic-and-links {
         display: block;
         float: none;
         margin-left: auto;
